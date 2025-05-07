@@ -1,0 +1,20 @@
+[project]
+title      = "Sleep Health Analysis"
+version    = "0.1.0"
+port       = 8501
+slug       = "sleep-health-analysis"
+entrypoint = "sleep_analysis.py"
+
+[branding]
+name = "Sleep Health & Lifestyle Analysis"
+logo = "images/sleep_analysis.png"
+favicon = "images/sleep_app.ico"
+primaryColor = "#4361ee"
+
+[data.sleep_health_dataset]
+type = "csv"
+path = "data/Sleep_health_and_lifestyle_dataset.csv"
+
+[logging]
+level  = "ERROR"
+format = "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
